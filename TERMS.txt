@@ -1,0 +1,39 @@
+# BIM Genie - Terms of Use and Privacy Policy
+
+Effective date: March 10, 2025
+
+## 1. Acceptance of Terms
+By installing and using BIM Genie, you agree to comply with these Terms of Use and our Privacy Policy.
+
+## 2. Data Collection
+To improve functionality and ensure product quality, BIM Genie may collect the following data:
+- **Revit User Name**: For identifying individual usage and generating usage analytics.
+- **Revit Version**: To ensure compatibility and improve support.
+- **Location (approximate IP)**: Used for analytics purposes and regional service improvements.
+- **Usage Logs and Errors**: To diagnose problems and improve the plugin's reliability.
+
+### **No sensitive personal data is collected.**
+We do **NOT** collect:
+- Machine name
+- Serial numbers
+- Personal project data or Revit models
+
+## 3. Purpose of Data Collection
+Collected data will be used exclusively for:
+- Improving plugin features and performance.
+- Analyzing usage patterns for better updates.
+- Resolving technical issues and providing support.
+
+## 4. Privacy and Security
+We are committed to protecting your data. All collected information is stored securely and will not be shared with third parties except as required by law.
+
+## 5. Contact Information
+For questions about these terms or data collection, contact us at:
+**support@bimgenie.com**
+
+## 6. Updates to Terms
+We may update these Terms periodically. The latest version will always be available with the installer and on our official repository.
+
+---
+
+By continuing with the installation, you agree to these Terms of Use and Privacy Policy.
