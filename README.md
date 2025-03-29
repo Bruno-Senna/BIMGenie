@@ -29,6 +29,8 @@ We are working to sign future versions of BIM Genie to eliminate this message. T
 - Autodesk Revit 2025 (or compatible versions)
 - Windows 10/11 64-bit
 
+> **This plugin was developed using the most advanced and up-to-date features of the Revit 2025+ API to ensure maximum performance, stability, and innovation.**
+
 ## Support
 For help or issues, contact: [support@bimgenie.com](mailto:support@bimgenie.com)
 
