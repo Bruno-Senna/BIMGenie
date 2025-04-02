@@ -5,6 +5,21 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows t
 
 ---
 
+## [0.0.5] – 2025-04-01
+### Added
+- Bubble sync is now fully operational, with stable background data transmission.
+- "Clear Conversation" button added to the BIM Genie Assistant panel for better control.
+
+### Changed
+- Significant UX improvements to the BIM Genie Assistant, including visual polish, clearer message flow, and enhanced AI personality behavior.
+- Clash Map tool performance and responsiveness improved.
+- Clear View command refined for more predictable and reliable results.
+
+### Fixed
+- General stability improvements and minor internal adjustments.
+
+---
+
 ## [0.0.4] – 2025-03-25
 ### Changed
 - Improved plugin stability during startup and execution.
@@ -37,4 +52,3 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows t
 - Core functionality for user activity tracking, command usage logging, and error reporting.
 - Local SQLite database setup for storing usage data.
 - Basic background sync structure prepared for integration with Bubble backend.
-

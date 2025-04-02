@@ -1,38 +1,44 @@
-# BIM Genie - Revit Plugin
+# BIM Genie
 
-Welcome to **BIM Genie**, a powerful and innovative plugin for Autodesk Revit, designed to enhance productivity, coordination, and automation in BIM workflows.
+**BIM Genie** is a powerful Revit add-in designed to help BIM Coordinators and Managers optimize their daily workflows through automation, analysis, and intelligent assistance.
 
-## Key Features
-- Smart Clash Detection and Visualization
-- Coordinates Checker and Model Validation
-- Custom Dashboards and Reports
-- Interactive Assistant powered by AI
-- And much more!
+## 🚀 Features
 
-## Installation
-Download the latest installer from the [Releases page](https://github.com/Bruno-Senna/BIMGenie), and run the executable to install **BIM Genie** for Revit.
+- ✅ Automated Clash Map for better issue tracking
+- ✅ "Clear View" tool to clean and isolate 3D views
+- ✅ Seamless data synchronization with Bubble.io
+- ✅ AI-powered Assistant integrated directly in Revit
+- ✅ SQLite local storage with background sync
+- ✅ Version checker to ensure plugin is always up-to-date
 
-> **Note:** During installation, you must accept the Terms of Use and Privacy Policy.
+## 🔄 What's New in v0.0.5 (Pre-release)
 
-### Windows Defender SmartScreen Warning
-When running the installer, **Windows Defender SmartScreen** may display a warning because **BIM Genie is a new and unsigned application**.
+- Improved UX and design of the BIM Genie Assistant
+- Fully operational Bubble sync
+- Enhancements to Clash Map and Clear View commands
+- Stability improvements across all modules
+- New "Clear Conversation" button and Enter-to-send shortcut
 
-**Don't worry!** This is expected during the early release phase, as we are in the process of obtaining an official Code Signing Certificate.
+## 📂 Installation
 
-#### To proceed with the installation:
-1. Click **"More info"**.
-2. Click **"Run anyway"**.
+1. Download the latest `.zip` or `.msi` file from the [Releases page](https://github.com/Bruno-Senna/BIMGenie/releases).
+2. Extract and place the `.addin` and `.dll` files into your Revit `Addins` folder:
+   - `C:\ProgramData\Autodesk\Revit\Addins\2025`
+3. Restart Revit.
 
-We are working to sign future versions of BIM Genie to eliminate this message. Thank you for trusting **BIM Genie**!
+## 🧠 Developed With
 
-## Requirements
-- Autodesk Revit 2025 (or compatible versions)
-- Windows 10/11 64-bit
+- Autodesk Revit 2025 API
+- .NET 8
+- SQLite
+- Bubble.io backend integration
+- OpenAI API (for the Assistant)
 
-> **This plugin was developed using the most advanced and up-to-date features of the Revit 2025+ API to ensure maximum performance, stability, and innovation.**
+## 🛠 Feedback & Contributions
 
-## Support
-For help or issues, contact: [support@bimgenie.com](mailto:support@bimgenie.com)
+We welcome feedback, suggestions, and contributions.  
+Feel free to [open an issue](https://github.com/Bruno-Senna/BIMGenie/issues) or reach out at **support@bimgenie.com**.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+## 📄 License
+
+MIT License.
