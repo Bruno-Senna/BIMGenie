@@ -4,35 +4,45 @@
 
 ## 🚀 Features
 
-- ✅ Automated Clash Map for better issue tracking
-- ✅ "Clear View" tool to clean and isolate 3D views
-- ✅ Seamless data synchronization with Bubble.io
-- ✅ AI-powered Assistant integrated directly in Revit
-- ✅ SQLite local storage with background sync
-- ✅ Version checker to ensure plugin is always up-to-date
+- ✅ Automated Clash Map for smarter issue tracking and visualization  
+- ✅ "Clear View" tool to clean and isolate 3D views  
+- ✅ Seamless data synchronization with Bubble.io  
+- ✅ AI-powered Assistant embedded directly in Revit  
+- ✅ SQLite local storage with background sync  
+- ✅ Geolocation and system diagnostics logging  
+- ✅ Version checker to ensure plugin is always up-to-date  
 
-## 🔄 What's New in v0.0.5 (Pre-release)
+## 🔄 What's New in v0.0.6 (Pre-release)
 
-- Improved UX and design of the BIM Genie Assistant
-- Fully operational Bubble sync
-- Enhancements to Clash Map and Clear View commands
-- Stability improvements across all modules
-- New "Clear Conversation" button and Enter-to-send shortcut
+### Added
+- 🌍 Automatic geolocation collection (continent, country, city) for usage insights  
+- 🧠 Assistant personality refined for smoother and more natural conversations  
+- 🖥️ Screen resolution now included in system diagnostics  
+
+### Changed
+- 🔄 Internal refactors for better performance and serialization logic  
+- 💬 Improved Assistant message flow and UX interactions  
+
+### Fixed
+- 🧱 Better error handling when geolocation services fail  
+- 🧹 Minor stability and memory usage improvements during long sessions  
+
+📄 Full changelog → [CHANGELOG.md](./CHANGELOG.md)
 
 ## 📂 Installation
 
-1. Download the latest `.zip` or `.msi` file from the [Releases page](https://github.com/Bruno-Senna/BIMGenie/releases).
-2. Extract and place the `.addin` and `.dll` files into your Revit `Addins` folder:
-   - `C:\ProgramData\Autodesk\Revit\Addins\2025`
+1. Download the latest `.zip` or `.msi` from the [Releases page](https://github.com/Bruno-Senna/BIMGenie/releases).  
+2. Place the `.addin` and `.dll` files in your Revit Addins folder:  
+   `C:\ProgramData\Autodesk\Revit\Addins\2025`  
 3. Restart Revit.
 
 ## 🧠 Developed With
 
-- Autodesk Revit 2025 API
-- .NET 8
-- SQLite
-- Bubble.io backend integration
-- OpenAI API (for the Assistant)
+- Autodesk Revit 2025 API  
+- .NET 8  
+- SQLite  
+- Bubble.io backend  
+- OpenAI API (for Assistant module)  
 
 ## 🛠 Feedback & Contributions
 

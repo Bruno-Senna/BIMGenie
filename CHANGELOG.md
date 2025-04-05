@@ -5,7 +5,29 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows t
 
 ---
 
-## [0.0.5] – 2025-04-01
+## [0.0.6] – 2025-04-03
+### Added
+New fields added to the analytics engine, including continent, country, city, and screen resolution.
+
+Integration with a free geolocation API to collect regional distribution data.
+
+Automatic geolocation and system spec logging for new users.
+
+### Changed
+BIM Genie Assistant personality further refined for a more conversational and natural tone.
+
+Improved UI/UX interactions within the Assistant, especially for message handling and flow.
+
+Internal refactor to enhance data serialization and syncing logic.
+
+### Fixed
+Better error handling for location-based API failures.
+
+Minor memory usage and stability enhancements during long Revit sessions.
+
+---
+
+## [0.0.5] – 2025-04-02
 ### Added
 - Bubble sync is now fully operational, with stable background data transmission.
 - "Clear Conversation" button added to the BIM Genie Assistant panel for better control.
