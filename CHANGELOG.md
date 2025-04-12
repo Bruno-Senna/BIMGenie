@@ -5,6 +5,20 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows t
 
 ---
 
+## [0.0.7] – 2025-04-12
+### Changed
+- Clear View command now supports views with **View Templates**:
+  - Detects if a View Template is active and prompts the user with options:
+    - Remove the template and apply the Clear View.
+    - Proceed without removing the template.
+    - Use **Temporary View Properties** mode if available.
+
+### Fixed
+- Scroll behavior issue in the **BIM Genie Assistant panel** has been resolved.
+  - Users can now smoothly scroll through the chat interface without visual glitches.
+
+---
+
 ## [0.0.6] – 2025-04-03
 ### Added
 New fields added to the analytics engine, including continent, country, city, and screen resolution.
