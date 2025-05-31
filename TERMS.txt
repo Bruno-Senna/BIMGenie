@@ -1,49 +1,16 @@
-# BIM Genie – Terms of Use and Privacy Policy
+BIM Genie – Terms of Use (Beta Version)
 
-**Effective date: March 10, 2025  
-Last updated: April 3, 2025**
+This software is currently in a public beta stage and is provided for testing and feedback purposes only.
+By using BIM Genie, you agree to the following:
 
-## 1. Acceptance of Terms
-By installing and using BIM Genie, you agree to comply with these Terms of Use and our Privacy Policy.
+1. This beta version is intended exclusively for Revit 2025.
+2. You may not redistribute, resell, or rebrand this software without explicit written permission.
+3. The software may collect non-sensitive usage data, such as version, commands used, and Revit session activity.
+4. All data collected is anonymous and used solely to improve the plugin experience.
+5. Support during the beta phase is offered on a best-effort basis through: support@bimgenie.com
+6. Features may change or be removed without notice in future updates.
+7. This software is provided “AS IS” without warranties of any kind.
 
-## 2. Data Collection
-To improve functionality, ensure compatibility, and enhance user experience, BIM Genie may collect the following data:
+By continuing with the installation, you acknowledge and accept these terms.
 
-- **Revit User Name** – To identify usage patterns per user.  
-- **Revit Version** – To ensure compatibility with current and future versions.  
-- **Operating System and System Specs** – Including CPU, RAM, GPU, screen resolution, and architecture.  
-- **Approximate Location (via public IP)** – Continent, country, and city (no GPS or personal tracking).  
-- **Usage Logs and Errors** – For diagnostics, debugging, and plugin stability.  
-
-### 🔒 **No sensitive personal data is collected.**  
-We **DO NOT** collect:  
-- Machine name  
-- Serial numbers  
-- Personal project files or Revit model content  
-
-## 3. Purpose of Data Collection
-Collected data is used solely for:
-
-- Improving plugin features, AI responses, and performance.  
-- Understanding usage patterns to guide updates.  
-- Ensuring version compatibility and optimizing support.  
-- Resolving technical issues and crash reports.
-
-## 4. Privacy and Security
-All collected data is securely stored and transmitted using encrypted channels.  
-Your information will **never be sold, shared, or transferred** to third parties, except where required by law.
-
-You may opt out of data collection at any time via the plugin's **Settings panel**.
-
-## 5. Contact Information
-If you have any questions about these Terms or the data we collect, please contact:
-
-**support@bimgenie.com**
-
-## 6. Updates to Terms
-We may revise these Terms and our Privacy Policy periodically.  
-The latest version will always be included in the installer package and available on our [official GitHub repository](https://github.com/Bruno-Senna/BIMGenie).
-
----
-
-By continuing with the installation or use of the plugin, you agree to the above Terms of Use and Privacy Policy.
+© 2025 Bruno Senna. All rights reserved.
