@@ -5,6 +5,68 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows t
 
 ---
 
+## [0.0.10-beta] – 2025-07-23
+
+### Added
+- **Move Views** – New tool to batch relocate views between sheets.
+- **Toggle Reference Points** – Allows quick toggle of Survey Point, Project Base Point, and Internal Origin visibility.
+- **Clear View With/Without Links** – New options added to Clear View dropdown.
+- **Reset Chat** – New command to reset Assistant history and context.
+- **New icons for all tools**, including light/dark variants.
+- **New command groups** in the Ribbon: Model Check, Model Management, Clash Analysis, External Tools, and Settings.
+
+### Changed
+- Full **Ribbon redesign**:
+  - Commands now grouped by category for intuitive access.
+  - Icons updated for clarity, visibility, and style.
+- Assistant commands were remapped to reflect UI changes.
+- Improved dark/light **theme detection** with dynamic icon switching.
+- New **icon color palette** based on functional grouping (green = check, red = clash, blue = system, etc.).
+
+### Improved
+- BIM Genie Assistant layout and alignment polished.
+- Analytics system now accurately tracks usage even with renamed commands.
+- Performance improvements in command loading and ribbon rendering.
+- Updated installer now fully removes outdated folders and databases.
+- Improved icon scaling and crispness on high-DPI displays.
+
+### Fixed
+- Fixed command routing inconsistencies due to refactoring.
+- Addressed Assistant command mismatch in some Revit versions.
+- Resolved tooltip duplication and icon flickering in light mode.
+- Fixed issue where painted elements were not being correctly reset.
+
+### Notes
+- This is a **beta release**, focused on stability and UI/UX improvements.  
+- Compatible only with **Revit 2025**.  
+- Feedback and bug reports are welcome at [support@bimgenie.com](mailto:support@bimgenie.com).
+
+---
+
+## [0.0.9-beta] – 2025-06-05
+
+### Changed
+- Reorganized ribbon commands across their appropriate categories (Model Check, Management, Analysis, etc.)
+- Standardized internal command naming for consistency across UI, Assistant, and tracking
+- Improved command registration logic and overall structure for better scalability
+
+### Improved
+- Assistant interpretation and response mapping updated for renamed and reorganized commands
+- Light/Dark theme interface consistency improved
+- Minor layout alignment and tooltip standardization
+
+### Fixed
+- Button order inconsistencies in some ribbon groups
+- Tooltip and label mismatches after ribbon restructuring
+- Internal mapping issues between Assistant commands and actual command logic
+
+### Notes
+- This is a **beta release** focused on usability and internal command structure refinements  
+- Currently supported only for **Revit 2025**  
+- Feedback and suggestions: [support@bimgenie.com](mailto:support@bimgenie.com)
+
+---
+
 ## [0.0.8-beta] – 2025-05-30
 
 ### Added
