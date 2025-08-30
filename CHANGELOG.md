@@ -5,6 +5,39 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows t
 
 ---
 
+## [0.0.11-beta] – 2025-08-30
+
+### Improved
+- **Get Element Coordinates**
+  - Rewritten for higher precision using cross-reference with Spot Elevation.
+  - Now automatically detects Survey Point clip status (clipped/unclipped).
+  - Fixed X/Y value inversion in specific project contexts.
+  - Results are now formatted for better readability (X, Y, Z in clear columns).
+  - Organized presentation: Survey Point → Base Point → Internal Origin.
+
+- **Check Coordinates**
+  - Now powered by the new `Get Element Coordinates` engine with full precision.
+  - Added detection of misalignment between Survey and Base Points.
+  - Output messages are clearer and more consistent, with feedback on detected issues.
+  - Logic simplified for easier maintenance.
+
+- **Check Model Health**
+  - New command: **Links & Imports Breakdown** – analyzes linked RVT and CAD files.
+  - Performance optimized in data collection using `FilteredElementCollector`.
+  - Better segmentation of internal checks by theme (Overview, Views, Elements, Links...).
+  - Outputs are now more user-friendly for reading and auditing.
+
+### Fixed
+- Fixed bug where coordinates were mirrored in some models.
+- Visual and rotation adjustments to icons in the “Model Check” tab.
+- Fixed bug affecting models with multiple active survey points.
+
+### Notes
+- This is a **beta release**, currently compatible with **Revit 2025 only**.
+- Feedback, suggestions, or bug reports: [support@bimgenie.com](mailto:support@bimgenie.com)
+
+---
+
 ## [0.0.10-beta] – 2025-07-23
 
 ### Added
